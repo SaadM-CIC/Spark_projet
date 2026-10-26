@@ -594,7 +594,7 @@ Voici les points essentiels à retenir pour votre présentation :
 """))
 
 nb['cells'] = cells
-with open("Analyse_Exploratoire_Spark.ipynb", "w", encoding="utf-8") as f:
+with open("projet_spark.ipynb", "w", encoding="utf-8") as f:
     nbf.write(nb, f)
 
-print(f"Notebook Analyse_Exploratoire_Spark.ipynb updated successfully with {len(cells)} cells!")
+print(f"Notebook projet_spark.ipynb updated successfully with {len(cells)} cells!")

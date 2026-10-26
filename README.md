@@ -1,9 +1,9 @@
-# 🚗 Prédiction de la Durée des Déplacements sous Apache Spark
+# Prédiction de la Durée des Déplacements sous Apache Spark
 ### Projet Big Data & Machine Learning (Spark MLlib) — Mobilité Urbaine à Dakar
 
 ---
 
-## 📌 Description du Projet
+## Description du Projet
 
 Ce projet vise à modéliser et prédire la durée de déplacement (`Duree_mn`) dans la région métropolitaine de Dakar en s'appuyant sur l'écosystème **Apache Spark** (PySpark, Spark SQL, Spark MLlib).
 
@@ -15,9 +15,9 @@ Le système analyse et apprend à partir de multiples facteurs de mobilité :
 
 ---
 
-## 📂 Structure du Répertoire
+## Structure du Répertoire
 
-* **`Analyse_Exploratoire_Spark.ipynb`** : Notebook Jupyter contenant l'analyse exploratoire des données, les transformations Spark SQL / DataFrame, et les modèles de Machine Learning (Spark MLlib).
+* **`projet_spark.ipynb`** : Notebook Jupyter contenant l'analyse exploratoire des données, les transformations Spark SQL / DataFrame, et les modèles de Machine Learning (Spark MLlib).
 * **`generate_notebook.py`** : Script Python de génération et structuration du notebook d'analyse.
 * **`deplacement.csv`** : Données des trajets et déplacements.
 * **`communes.csv`** : Table de correspondance géographique des communes de la région de Dakar.
@@ -25,7 +25,7 @@ Le système analyse et apprend à partir de multiples facteurs de mobilité :
 
 ---
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 * **Apache Spark / PySpark** : Traitement distribué des données volumineuses & Machine Learning (`pyspark.ml`)
 * **Python 3** : Pandas, NumPy, Matplotlib, Seaborn, openpyxl
@@ -33,7 +33,7 @@ Le système analyse et apprend à partir de multiples facteurs de mobilité :
 
 ---
 
-## 🚀 Utilisation
+## Utilisation
 
 1. **Prérequis** :
    * Java (JDK 8 ou 11)
@@ -42,5 +42,5 @@ Le système analyse et apprend à partir de multiples facteurs de mobilité :
 
 2. **Lancement de l'analyse** :
    ```bash
-   jupyter notebook Analyse_Exploratoire_Spark.ipynb
+   jupyter notebook projet_spark.ipynb
    ```
